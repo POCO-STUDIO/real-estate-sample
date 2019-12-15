@@ -1,0 +1,16 @@
+/* Layout styles */
+
+.row {
+  width: 100%;
+  position: relative;
+}
+
+.one-quarter-left {
+  width: 25%;
+  float: left;
+}
+
+.three-quarter-right {
+  width: 75%;
+  float: right;
+}
