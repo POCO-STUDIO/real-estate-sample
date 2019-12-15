@@ -4,6 +4,7 @@
 <head>
     <title>Real estate homework</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="main.js"></script>
 </head>
 
 <body>
@@ -11,12 +12,16 @@
         <section id="agent-wrapper" class="one-quarter-left">
             AGENT
         </section>
-        <main>
-            <section id="property-wrapper" class="three-quarter-right">
-                PROPERTY
-                <section id="property-image">
-                    <div id="property-image-wrapper" class="center">
-                        <img id="property-image" src="images/image.jpg" />
+        <section id="property-wrapper" class="three-quarter-right">
+            PROPERTY
+            <main>
+                <section id="property-gallery">
+                    <div id="property-image-wrapper">
+                        <img id="property-image" class="center" width="480px" src="images/image1.jpg" />
+                    </div>
+                    <div id="property-image-controls" class="center">
+                        <button onclick="goToPreviousImage()">Previous</button>
+                        <button onclick="goToNextImage()">Next</button>
                     </div>
                 </section>
                 <section id="property-form">
@@ -43,8 +48,8 @@
                         </form>
                     </div>
                 </section>
-            </section>
-        </main>
+            </main>
+        </section>
     </div>
 </body>
 
