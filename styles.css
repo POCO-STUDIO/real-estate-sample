@@ -23,4 +23,16 @@
   text-align: center;
 }
 
+.padding {
+  padding: 14px;
+}
+
 /* specifics */
+#property-form div {
+  margin-bottom: 14px;
+}
+
+#property-form label {
+  display: inline-block;
+  min-width: 150px;
+}

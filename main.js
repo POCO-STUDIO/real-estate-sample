@@ -1,4 +1,4 @@
-var totalNumberOfImages = 4;
+var totalNumberOfImages = 3;
 var currentImageIndex = 1;
 
 function goToNextImage() {
