@@ -20,15 +20,7 @@
 .center {
   display: block;
   margin: 0 auto;
+  text-align: center;
 }
 
 /* specifics */
-
-#property-image-wrapper {
-  max-width: 480px;
-}
-
-#property-image {
-  width: 100%;
-  height: auto;
-}
