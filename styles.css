@@ -14,3 +14,21 @@
   width: 75%;
   float: right;
 }
+
+/* for generic elements */
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+/* specifics */
+
+#property-image-wrapper {
+  max-width: 480px;
+}
+
+#property-image {
+  width: 100%;
+  height: auto;
+}
